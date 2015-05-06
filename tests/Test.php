@@ -1,11 +1,11 @@
 <?php
 
-use lib\ಠ_ಥ;
+use Cryex\ಠ_ಥ;
 
 class Test extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @expectedException \lib\ಠ_ಥ
+     * @expectedException \Cryex\ಠ_ಥ
      * @expectedExceptionMessage Use PDO not mysqli
      */
     public function testThrowCryFaceException()

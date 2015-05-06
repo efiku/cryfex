@@ -1,6 +1,6 @@
 <?php
 
-namespace lib;
+namespace Cryex;
 
 use Exception;
 
