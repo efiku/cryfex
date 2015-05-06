@@ -1,5 +1,5 @@
 {
-  "name": "cryex/cryex",
+  "name": "efik/cryex",
   "description": "ಠ_ಥ",
   "type": "library",
   "license": "MIT",
@@ -16,8 +16,6 @@
     "phpunit/phpunit": "~4.6"
   },
   "autoload": {
-    "psr-0": {
-            "Cryex": "src"
-        }
+    "files": ["src/cryex/cryex.php"]
   }
 }

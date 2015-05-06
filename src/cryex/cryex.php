@@ -1,10 +1,15 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: efik
+ * Date: 06.05.15
+ * Time: 21:28
+ */
 
-namespace Cryex;
+namespace cryex;
 
-use Exception;
 
-class ಠ_ಥ extends Exception
+class ಠ_ಥ extends \Exception
 {
     public function __construct($message = "", $code = 0, \Exception $previous = null)
     {
