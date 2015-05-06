@@ -1,7 +1,14 @@
 ## Funny Class! 
 
 [![Build Status](https://travis-ci.org/efik/cryex.svg?branch=master)](https://travis-ci.org/efik/cryex)
+[![Latest Stable Version](https://poser.pugx.org/efik/cryex/v/stable)](https://packagist.org/packages/efik/cryex) [![Total Downloads](https://poser.pugx.org/efik/cryex/downloads)](https://packagist.org/packages/efik/cryex) [![Latest Unstable Version](https://poser.pugx.org/efik/cryex/v/unstable)](https://packagist.org/packages/efik/cryex) [![License](https://poser.pugx.org/efik/cryex/license)](https://packagist.org/packages/efik/cryex)
 
+##Download with composer:
+```sh
+   composer require "efik/cryex:dev-master"
+```
+
+##Small preview
 ```php
 <?php
    function divide($a, $b){
