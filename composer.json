@@ -17,5 +17,10 @@
   },
   "autoload": {
     "files": ["src/cryex/cryex.php"]
+  },
+    "extra": {
+      "branch-alias": {
+          "dev-master": "1.0-dev"
+      }
   }
 }
