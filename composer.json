@@ -1,6 +1,7 @@
 {
-  "name": "efik/cryex",
+  "name": "cryex/cryex",
   "description": "ಠ_ಥ",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
@@ -12,6 +13,8 @@
     "phpunit/phpunit": "~4.6"
   },
   "autoload": {
-    "files": ["lib/cryex.php"]
+    "psr-0": {
+            "Cryex": "src"
+        }
   }
 }
