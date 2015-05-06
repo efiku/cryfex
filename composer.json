@@ -1,0 +1,17 @@
+{
+  "name": "efik/cryex",
+  "description": "ಠ_ಥ",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Pazdur",
+      "email": "pazdurk@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "files": ["lib/cryex.php"]
+  }
+}
