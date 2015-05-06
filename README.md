@@ -4,11 +4,14 @@ Build status:
 
 ```php
 <?php
-   try{
-     $a = 3 / 0 ;
+   function divide($a, $b){
+     return ($b !== 0) ? $a/$b : throw new ಠ_ಥ("Why you do this..");
    }
-   catch( \Exception $e ){
-       throw new ಠ_ಥ("Why you do this..");
+   try{
+      divide( 10 / 0 ); 
+   }
+   catch( ಠ_ಥ $e ){
+        die( $e->getMessage() ); 
    }
   
 ```
