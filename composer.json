@@ -16,7 +16,15 @@
     "phpunit/phpunit": "~4.6"
   },
   "autoload": {
-    "files": ["src/cryex/cryex.php"]
+    "psr-4": {
+      "efik\\Cryex\\": "src/",
+      "efik\\Cryex\\Tests\\": "tests/"
+      }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
   },
     "extra": {
       "branch-alias": {

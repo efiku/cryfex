@@ -1,11 +1,12 @@
 <?php
 
-use  cryex\ಠ_ಥ;
+namespace efik\Cryex\Tests;
+use  efik\Cryex\ಠ_ಥ;
 
 class Test extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @expectedException \cryex\ಠ_ಥ
+     * @expectedException \efik\Cryex\ಠ_ಥ
      * @expectedExceptionMessage Use PDO not mysqli
      */
     public function testThrowCryFaceException()

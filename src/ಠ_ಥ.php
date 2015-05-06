@@ -6,7 +6,7 @@
  * Time: 21:28
  */
 
-namespace cryex;
+namespace efik\Cryex;
 
 
 class ಠ_ಥ extends \Exception
