@@ -2,8 +2,7 @@
 
 ###  ಠ_ಥ("Why..");
 
-[![Build Status](https://travis-ci.org/efik/cryfex.svg?branch=master)](https://travis-ci.org/efik/cryfex)
-[![Latest Stable Version](https://poser.pugx.org/efik/cryfex/v/stable)](https://packagist.org/packages/efik/cryfex) [![Total Downloads](https://poser.pugx.org/efik/cryfex/downloads)](https://packagist.org/packages/efik/cryfex) [![Latest Unstable Version](https://poser.pugx.org/efik/cryfex/v/unstable)](https://packagist.org/packages/efik/cryfex) [![License](https://poser.pugx.org/efik/cryfex/license)](https://packagist.org/packages/efik/cryfex)
+[![Build Status](https://travis-ci.org/efik/cryfex.svg?branch=master)](https://travis-ci.org/efik/cryfex) [![Latest Stable Version](https://poser.pugx.org/efik/cryfex/v/stable)](https://packagist.org/packages/efik/cryfex) [![Total Downloads](https://poser.pugx.org/efik/cryfex/downloads)](https://packagist.org/packages/efik/cryfex) [![Latest Unstable Version](https://poser.pugx.org/efik/cryfex/v/unstable)](https://packagist.org/packages/efik/cryfex) [![License](https://poser.pugx.org/efik/cryfex/license)](https://packagist.org/packages/efik/cryfex)
 
 ##Download with composer:
 ```sh
