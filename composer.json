@@ -1,5 +1,5 @@
 {
-  "name": "efik/cryex",
+  "name": "efik/cryfex",
   "description": "ಠ_ಥ",
   "type": "library",
   "license": "MIT",
@@ -17,18 +17,13 @@
   },
   "autoload": {
     "psr-4": {
-      "efik\\Cryex\\": "src/",
-      "efik\\Cryex\\Tests\\": "tests/"
+      "efik\\Cryfex\\": "src/",
+      "efik\\Cryfex\\Tests\\": "tests/"
       }
   },
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
     }
-  },
-    "extra": {
-      "branch-alias": {
-          "dev-master": "1.0-dev"
-      }
   }
 }
