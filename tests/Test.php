@@ -1,8 +1,12 @@
 <?php
-
 namespace efik\Cryfex\Tests;
-use  efik\Cryfex\ಠ_ಥ;
 
+use efik\Cryfex\ಠ_ಥ;
+
+/**
+ * Class Test
+ * @package efik\Cryfex\Tests
+ */
 class Test extends \PHPUnit_Framework_TestCase
 {
     /**
