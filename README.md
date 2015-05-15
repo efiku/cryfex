@@ -1,6 +1,6 @@
-## Funny Class! 
+## ~(˘▾˘~) Throw funny exceptions ! (~˘▾˘)~
 
-###  ಠ_ಥ("Why..");
+###  ಠ_ಥ("PHP !");
 
 [![Build Status](https://travis-ci.org/efik/cryfex.svg?branch=master)](https://travis-ci.org/efik/cryfex) [![Latest Stable Version](https://poser.pugx.org/efik/cryfex/v/stable)](https://packagist.org/packages/efik/cryfex) [![Total Downloads](https://poser.pugx.org/efik/cryfex/downloads)](https://packagist.org/packages/efik/cryfex) [![Latest Unstable Version](https://poser.pugx.org/efik/cryfex/v/unstable)](https://packagist.org/packages/efik/cryfex) [![License](https://poser.pugx.org/efik/cryfex/license)](https://packagist.org/packages/efik/cryfex) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/bf3a8366-d6f9-40ed-ae10-e838cc9c32ec/mini.png)](https://insight.sensiolabs.com/projects/bf3a8366-d6f9-40ed-ae10-e838cc9c32ec)
 
