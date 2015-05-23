@@ -1,17 +1,18 @@
 sudo: false
 language: php
+addons:
+  code_climate:
+    repo_token: dbd3252d60f5900d51c2af98dcafddc77403c14588cd641a7bba4dcc80b3b52e
 php:
-  - 5.3
-  - 5.4
   - 5.5
   - 5.6
   - 7.0
 
 before-install: composer self-update
-install: travis_retry composer install
+install: composer install
 before_script:
   - git config --global user.email "travis-ci@codeclimate.com"
   - git config --global user.name "Travis CI"
 script: vendor/bin/phpunit  --coverage-clover build/logs/clover.xml
 after_script:
-  -  CODECLIMATE_REPO_TOKEN=dbd3252d60f5900d51c2af98dcafddc77403c14588cd641a7bba4dcc80b3b52e ./vendor/bin/test-reporter
+  - vendor/bin/test-reporter
