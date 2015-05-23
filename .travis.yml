@@ -5,10 +5,7 @@ php:
   - 5.5
   - 5.6
 install: composer install
-before_script:
-  - git config --global user.email "travis-ci@codeclimate.com"
-  - git config --global user.name "Travis CI"
 script: vendor/bin/phpunit 
 after_script:
   - vendor/bin/test-reporter --stdout > codeclimate.json
-  - "curl -X POST -d @codeclimate.json -H 'Content-Type: application/json' -H 'User-Agent: Code Climate (PHP Test Reporter v0.1.1)' https://codeclimate.com/test_reports"
+  - "curl --verbose -X POST -d @codeclimate.json -H 'Content-Type: application/json' -H 'User-Agent: Code Climate (PHP Test Reporter v0.1.1)' https://codeclimate.com/test_reports"
