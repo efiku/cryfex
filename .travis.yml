@@ -11,5 +11,4 @@ before-install: composer self-update
 install: travis_retry composer install --no-interaction --prefer-source
 script: vendor/bin/phpunit  --coverage-clover build/logs/clover.xml
 after_script:
-  - CODECLIMATE_REPO_TOKEN="dbd3252d60f5900d51c2af98dcafddc77403c14588cd641a7bba4dcc80b3b52e" vendor/bin/test-reporter --stdout > codeclimate.json
-  - "curl -X POST -d @codeclimate.json -H 'Content-Type: application/json' -H 'User-Agent: Code Climate (PHP Test Reporter v0.1.1)' https://codeclimate.com/test_reports"
+  -  CODECLIMATE_REPO_TOKEN=dbd3252d60f5900d51c2af98dcafddc77403c14588cd641a7bba4dcc80b3b52e vendor/bin/test-reporter
