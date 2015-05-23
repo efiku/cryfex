@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1432413040">
+  <project timestamp="1432413040">
+    <package name="efik\Cryfex">
+      <file name="/home/efik/PhpstormProjects/cryfex/src/ಠ_ಥ.php">
+        <class name="ಠ_ಥ" namespace="efik\Cryfex" fullPackage="efik" package="efik">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="16" type="method" name="__construct" crap="1" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="24" type="method" name="__toString" crap="1" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <metrics loc="28" ncloc="16" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <metrics files="1" loc="28" ncloc="16" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+  </project>
+</coverage>

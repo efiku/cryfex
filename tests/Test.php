@@ -17,4 +17,15 @@ class Test extends \PHPUnit_Framework_TestCase
     {
         throw new  ಠ_ಥ("Use PDO not mysqli");
     }
+
+    public function testConvertExceptionObjectToString()
+    {
+        try{
+		throw new ಠ_ಥ("Use PDO not mysqli");
+        }
+        catch( ಠ_ಥ $e){
+            $this->assertSame("ಠ_ಥ", (string)$e);
+        }
+    }
+
 }
